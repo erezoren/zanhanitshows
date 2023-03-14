@@ -10,6 +10,7 @@ body {
   background-color: aliceblue;
   border: solid black 2px;
   border-radius: 10px;
+  overflow-x:auto;
 }
 
 .z-tbl th, td {
@@ -20,4 +21,9 @@ body {
 .sub-title{
   font-size: 20px;
   font-weight: bold;
+}
+
+.tbl-container{
+  direction: rtl;
+  overflow-x:auto;
 }
