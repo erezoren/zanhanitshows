@@ -33,4 +33,21 @@ body {
 .play-btn{
   width: 4rem;
 }
+.counter{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.message {
+  color: #5229ec;
+  text-align: center;
+  margin-top: 10px;
+}
 
+#visits{
+  background-color: #d3be67;
+  font-size: 30px;
+}
+.cnt-span{
+  font-size: 30px;
+}
