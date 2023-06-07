@@ -6,9 +6,9 @@ body {
   font-family: sans-serif
 }
 
-.z-tbl{
+.z-tbl {
   background-color: aliceblue;
-  overflow-x:auto;
+  overflow-x: auto;
 
   border: 15px solid transparent;
   padding: 15px;
@@ -20,34 +20,45 @@ body {
   padding: 10px;
 }
 
-.sub-title{
+.sub-title {
   font-size: 20px;
   font-weight: bold;
 }
 
-.tbl-container{
+.tbl-container {
   direction: rtl;
-  overflow-x:auto;
+  overflow-x: auto;
 }
 
-.play-btn{
+.play-btn {
   width: 4rem;
 }
-.counter{
+
+.counter {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .message {
   color: #5229ec;
   text-align: center;
   margin-top: 10px;
 }
 
-#visits{
+#visits {
   background-color: #d3be67;
   font-size: 30px;
 }
-.cnt-span{
+
+.cnt-span {
   font-size: 30px;
+}
+
+.past-show {
+  text-decoration: line-through
+}
+
+.special-show {
+  background-color: #b0e5b3;
 }
